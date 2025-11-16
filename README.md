@@ -1,2 +1,2 @@
 # Website-projects
-All the modules
+All example websites
