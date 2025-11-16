@@ -1,0 +1,55 @@
+body{
+	background-image: url("https://images.rawpixel.com/image_800/czNmcy1wcml2YXRlL3Jhd3BpeGVsX2ltYWdlcy93ZWJzaXRlX2NvbnRlbnQvbHIvcm0yODEtYWRqLTA2Ny1qb2I1OTguanBn.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+#container {
+    position: relative;
+}
+
+#ball {
+    width: 20px;
+    height: 20px;
+    background-color: #fbb782;
+    position: fixed;
+    top: 20px;
+    left: 52.5%;
+    border-radius: 50%;
+}
+
+#rod1, #rod2 {
+    width: 200px;
+    height: 20px;
+    position: fixed;
+    left: 50%;
+    border-radius: 25px;
+    text-align: center;
+    color: white;
+    font-weight: bold;
+}
+
+#rod1 {
+    background-color: #ebd0ba;
+    top: 0px;    
+}
+
+#rod2 {
+    background-color: #835641;
+    bottom: 0px;
+}
+
+
+@media screen and (max-width: 768px) {
+    #ball {     
+        width: 10px;
+        height: 10px;
+        top: initial; 
+    }
+
+    #rod1, #rod2 {
+        width: 150px;
+        height: 15px;
+        font-size: 12px;
+    }
+}

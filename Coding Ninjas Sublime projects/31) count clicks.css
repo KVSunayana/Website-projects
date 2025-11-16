@@ -1,0 +1,17 @@
+body{
+    text-align: center;
+    margin: 50px;
+}
+#btn1{
+    height: 100px;
+    width: 100px;
+    text-align: center;
+    background-color: red;
+    border: 0px;
+    margin-bottom: 50px;
+}
+
+h2{
+    text-align: center;
+    
+}

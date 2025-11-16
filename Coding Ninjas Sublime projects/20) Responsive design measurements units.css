@@ -1,0 +1,68 @@
+html{
+	font-size: 30px;
+}
+
+#div1{
+	width: 1100px;
+	padding: 10px;
+	border: 2px solid royalblue;
+}
+
+#div2{
+	width: 75%;
+	padding: 10px;
+	border: 2px solid royalblue;
+}
+
+#div3{
+	width: 25rem;
+	padding: 10px;
+	border: 2px solid royalblue;
+}
+
+#div4{
+	width: 25em;
+	padding: 10px;
+	border: 2px solid royalblue;
+}
+#div5{
+	width: 60%;
+	padding: 10px;
+	border: 2px solid rebeccapurple;
+}
+
+@media screen and (max-width:600px){
+	#div5{
+	width: 100%;
+	padding: 10px;
+	border: 2px solid rebeccapurple;
+}
+}
+@media screen and (max-width:900px){
+	#div5{
+	width: 100%;
+	padding: 10px;
+	border: 2px solid rebeccapurple;
+}
+}
+
+#div6{
+	width: 100%;
+	padding: 10px;
+	border: 2px solid rebeccapurple;
+}
+
+@media screen and (min-width:600px){
+	#div6{
+	width: 100%;
+	padding: 10px;
+	border: 2px solid rebeccapurple;
+}
+}
+@media screen and (min-width:900px){
+	#div6{
+	width: 100%;
+	padding: 10px;
+	border: 2px solid rebeccapurple;
+}
+}

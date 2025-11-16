@@ -1,0 +1,441 @@
+body {
+    margin: 0px;
+}
+
+/*common color with CSS variable*/
+:root{
+    --section-color-pink: #c42c66;
+}
+
+/*Section Background colors*/
+
+section{
+    width: 100%;
+    height: 75vh;
+    display: flex;
+    flex-direction: column;
+}
+
+section:nth-child(2n){
+    background-color: lightgrey;
+}
+
+section:nth-child(2n+1){
+    background-color: white;
+}
+
+section:target{
+    background-color: azure;
+}
+
+/* Body Header */
+
+#body-header {
+    height: 65vh;
+    opacity: 0.8;
+    background-image: url(https://ninjasfiles.s3.amazonaws.com/asset_0000000000000020_1549743985_macbook_mouse.jpg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+/* Horizontal Lists */
+
+.horizontal-list {
+    list-style: none;
+    padding-left: 0px;
+}
+
+.horizontal-list li {
+    display: inline-block;
+    margin: 0px 8px 8px 0px;
+}
+
+
+.horizontal-list li a {
+    color: white;
+    text-decoration: none;
+    transition: color 0.5s, border-bottom 4s;
+}
+
+.horizontal-list li a:hover {
+    color: lightgrey;
+    border-bottom: 1px solid white;
+}
+
+.text-center {
+    text-align: center;
+}
+
+/* Title */
+#name{
+    color: white;
+    font-size: 50px;
+    margin-top: 80px;
+}
+
+#social-media-icons ul li{
+    list-style: none;
+    display: inline-block;
+}
+
+/* social media icons */
+#social-media-icons ul li a i{
+    color: white;
+    height: 25px;
+    width: 25px;
+    display: inline-block;
+    margin-left: 5px;
+    margin-right: 5px;
+    box-shadow: 2px rgba(230,196,196,0.3);
+    border-radius: 50%;
+    padding: 10px;
+}
+#social-media-icons ul li a i:hover{
+    box-shadow: 0px 0px 6px 4px rgba(230, 196, 196, 0.3);
+}
+
+/*About Section*/
+
+#about {
+    height: auto;
+    width: 100%;
+    position: relative;
+}
+
+#my-image {
+    height: 12rem;
+    width: 12rem;
+    margin: auto;
+    margin-top: -17vh;
+}
+
+#my-image img {
+    height: 100%;
+    width: 100%;
+    border-radius: 50%;
+    border: 4px solid white;
+    box-shadow: 0px 0px 6px 4px lightgrey;
+
+}
+
+#about span{
+    color: #2857a4;
+}
+
+#about p{
+    color: grey;
+    font-size: 20px;
+    text-align: justify;
+    margin: 20px 100px;
+}
+
+.text-highlight {
+    color: #2857a4;
+    font-weight: 600;
+}
+
+/* skills section */
+
+#skills{
+    align-items: center;
+    justify-content: center;
+}
+
+#skills h1{
+    color: var(--section-color-pink);
+    text-align: center;
+    font-size: 50px;
+    font-weight: normal;
+}
+
+.skills-display{
+    width: 70%;
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.skills-progress{
+    width: 7rem;
+    height: 1.4rem;
+    background-color: dimgray;
+    border-radius: 0.8rem;
+}
+
+.skill-progress>div{
+    border-radius: 20px 0px 0px 20px;
+}
+
+.skill-name span{
+    color:white;
+    font-size: 1rem;
+    margin-left: 10px;
+}
+
+.blue{
+    background-color: var(--section-color-pink);
+}
+
+.green{
+    background-color: green;
+}
+
+.red{
+    background-color: red;
+}
+
+.purple{
+    background-color: purple;
+}
+
+.mb75px{
+    margin-bottom: 75px;
+}
+
+.mb{
+    margin-bottom: 75px;
+    border-radius: 0.8rem;
+    height: 100%;
+}
+
+.eighty-percent{
+    width: 80%;
+}
+
+.ninety-percent{
+    width: 90%;
+}
+
+.fifty-percent{
+    width: 50%;
+}
+
+/*Portoflio section*/
+
+#portfolio{
+    align-items: center;
+    justify-content: center;
+    height: 800px;
+}
+
+#portfolio h1{
+    color: var(--section-color-pink);
+    text-align: center;
+    font-size: 50px;
+    font-weight: normal;
+}
+
+.portfolio-display{
+    width: 80%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.portfolio-display img{
+    width: 18rem;
+    height: 18rem;
+}
+
+/*Contact section*/
+
+#contact{
+    background: linear-gradient(90deg, #2a529d, #403066);
+    color: white;
+    width: 100%;
+    display: flex;
+    height: 38rem;
+}
+
+#contact h1{
+    text-align: center;
+    font-size: 50px;
+    font-weight: normal;
+}
+
+#row{
+    width: 80%;
+    display: table;
+    clear: both;
+    justify-content: space-around;
+    margin-left: 10%;
+    margin-bottom: 30px;
+}
+
+input{
+    display: block;
+    margin-bottom: 40px;
+    background-color: transparent;
+    border: 0px solid transparent;
+    border-bottom: 2px solid white;
+    color: grey;
+    width: 35vw;
+    font-size: 1.1rem;
+    padding-left: 20px;
+}
+
+button{
+    display: block;
+    background-color: transparent;
+    border: 2px solid white;
+    padding: 10px;
+    text-align: center;
+    color: white;
+    font-weight: 900;
+    font-size: 15px;
+    margin-left: 40%;
+}
+
+.query{
+    width: 40%;
+    float: left;
+}
+
+.address{
+    width: 40%;
+    float: right;
+    margin-top: -25px;
+}
+
+.address-bold{
+    font-size: 22px;
+    font-weight: bold;
+    color: white;
+}
+
+/*Work Experience section*/
+
+#experience{
+    height: 65rem;
+    margin-bottom: 100px;
+}
+
+#experience h1{
+    text-align: center;
+    color: var(--section-color-pink);
+    font-size: 50px;
+    font-weight: normal;
+}
+
+.timeline{
+    position: relative;
+    width: 75%;
+    left: 12%;
+    border: 2px solid transparent;
+}
+
+.timeline-box{
+    position: relative;
+    width: 40%;
+    left: 5%;
+    margin: 5px;
+    min-height: 150px;
+    border: 2px solid transparent;
+}
+
+.timeline-box:nth-child(2n){
+    left: 53%;
+}
+
+.timeline-box:nth-child(2n+1)::after{
+    content: '';
+    position: absolute;
+    top: 30%;
+    right: -12.5%;
+    border-radius: 50%;
+    width: 0.5rem;
+    height: 0.5rem;
+    background-color: gray;
+    z-index: 1;
+}
+
+.timeline-box:nth-child(2n)::after{
+    content: '';
+    position: absolute;
+    top: 30%;
+    left: -9.5%;
+    border-radius: 50%;
+    width: 0.5rem;
+    height: 0.5rem;
+    background-color: gray;
+    z-index: 1;
+}
+
+.timeline-divider{
+    position: absolute;
+    height: 75%;
+    width: 0;
+    border: 3px dashed cyan;
+    top: 10%;
+    left: 50%;
+}
+
+.timeline-traveller{
+    position: sticky;
+    top: 30%;
+    transform: rotate(90deg);
+    z-index: 2;
+}
+
+.timeline-box{
+    color: grey;
+}
+
+.timeline-img{
+    display: inline-block;
+}
+
+.timeline-img img{
+    height: 45px;
+    width: 45px;
+    border-radius: 10px;
+}
+
+.timeline-heads{
+    display: inline-block;
+    text-align: right;
+    margin-left: 36.25%;
+    line-height: 5px;
+    font-size: 17px;
+}
+
+.timeline-heads h3{
+    color: var(--section-color-pink);
+    font-size: 20px;
+}
+
+.timeline-company{
+    color: orange;
+}
+
+.timeline-para{
+    text-align: justify;
+    font-size: 15px;
+}
+
+@media screen and (max-width:600px){
+    .timeline-divider{
+        left: 0%;
+    }
+    .timeline-box{
+        left: 6% !important;
+        width: 80%;
+    }
+    .timeline-box::after{
+        left: -11%;
+    }
+}
+
+/*Education section*/
+
+#education{
+    height: 65rem;
+}
+
+#education h1{
+    text-align: center;
+    color: var(--section-color-pink);
+    font-size: 50px;
+    font-weight: normal;
+}

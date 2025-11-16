@@ -1,0 +1,45 @@
+.underline_class{
+	text-decoration: underline;
+}
+
+#submitbtn::before{
+	content: "";
+	height: 12px;
+	width: 40px;
+	background-size: contain;
+	background-repeat: no-repeat;
+	display: inline-block;
+	background-image: url("https://asset.brandfetch.io/idQVGbrvGL/idFrWdCkB5.png");
+	font-size: 2rem;
+	font-weight: bold;
+	text-transform: capitalize;
+}
+hr{
+	color: lightgray;
+	border: 0.05px solid lightgrey;
+}
+
+#logo{
+	width: 100%;
+}
+
+h3{
+	color: darkblue;
+}
+
+td{
+	padding: 4px;
+	margin: 2px;
+}
+
+h4{
+	display: inline-block;
+}
+
+#regbtn{
+	font-size: 16px;
+	border-radius: 0px;
+	border: 0.2px solid gray;
+	background: linear-gradient(whitesmoke, lightgray);
+	font-weight: 200;
+}

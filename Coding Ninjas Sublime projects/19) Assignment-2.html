@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Multiple Login forms</title>
+    <link rel="stylesheet" type="text/css" href="19) Assignment-2.css">
+  </head>
+  <body>
+    <header>
+      <h2>Already Registered?
+        <span class="underline_class">LOGIN</span>
+        now
+      </h2>
+
+      <form action="" method="post">
+        <label for="EmailID">Email</label>
+        <input type="text" name="EmailID" id="EmailID">
+        <label for="PassWord">Password</label>
+        <input type="Password" name="Password" id="PassWord">
+        <button type="submit" id="submitbtn">Login</button>
+      </form>
+      
+    </header>
+    <br>
+    <hr>
+    <br>
+    <br>
+    <main>
+      <section>
+        <h3 id="linkh"><a href="#">Coding Ninjas Blogs</a></h3>
+        <img src="https://ninjasfiles.s3.amazonaws.com/0000000000001395.png" id="logo">
+      </section>
+      <br>
+      <hr>
+      <br />
+
+      <section>
+        <h2 class="underline_class">REGISTRATION</h2>
+        <br>
+        <form action="" method="post">
+          <table>
+            <tr>
+              <td><label for="fname">First Name:</label></td>
+              <td><input type="text" name="fname"></td>
+            </tr>
+            <tr>
+              <td><label for="lname">Last Name:</label></td>
+              <td><input type="text" name="lname"></td>
+            </tr>
+            <tr>
+              <td rowspan="3"><label>Current address:</label></td>
+              <td><label for="fno">Flat No./House No.</label></td>
+              <td><input type="text" name="fno"></td>
+            </tr>
+            <tr>
+              <td><label for="loca">Locality</label></td>
+              <td><input type="text" name="loca"></td>
+            </tr>
+            <tr>
+              <td><label for="city">City</label></td>
+              <td><input type="text" name="city"></td>
+            </tr>
+          </table>
+
+          <h4>Is Current address and Permanent address same?</h4>
+                <input type="radio" name="add" id="add" value="yes" checked>Yes
+                <input type="radio" name="add" id="add" value="no">No
+
+          <table>
+            <tr>
+              <td><label for="email">Email:</label></td>
+              <td><input type="text" name="email" placeholder="abc@gmail.com"></td>
+            </tr>
+            <tr>
+              <td><label for="PassWord">Password:</label></td>
+              <td><input type="text" name="PassWord"></td>
+            </tr>
+          </table>
+
+          <button type="submit" id="regbtn">Register</button>
+        </form>
+      </section>
+    </main>
+  </body>
+</html>

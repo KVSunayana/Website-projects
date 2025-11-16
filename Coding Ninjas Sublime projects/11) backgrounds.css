@@ -1,0 +1,17 @@
+body{
+	background-color: lightpink;
+}
+#bg{
+	width: 100vw;
+	height: 100vh;
+	background-image: url("https://t4.ftcdn.net/jpg/05/52/20/61/360_F_552206181_KdToyQFo2ZSqBTv2aBiMUJcDVPXaaE3p.jpg");
+	background-repeat: no-repeat;
+	/*background-repeat: repeat;*/
+	/*background-repeat: repeat-x;*/
+	/*background-repeat: repeat-y;*/
+	background-position: center;
+	/*background-size: contain;*/
+	background-size: 200px 300px;
+	background-attachment: fixed;
+	/*background-attachment: scroll;
+}

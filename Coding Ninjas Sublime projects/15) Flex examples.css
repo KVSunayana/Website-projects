@@ -1,0 +1,78 @@
+/*Flex direction*/
+
+#container-flex-direction{
+	height: 75vh;
+	width: 75vw;
+	background-color: lightcoral;
+	display: flex;
+	/*flex-direction: row;*/
+	/*flex-direction: row-reverse;*/
+	/*flex-direction: column;*/
+	flex-direction: column-reverse;
+}
+
+#container-flex-direction div{
+	height: 200px;
+	width: 200px;
+}
+
+#div1{
+	background-color: bisque;
+	order: 1;
+}
+
+#div2{
+	background-color: black;
+}
+
+#div3{
+	background-color: burlywood;
+	order: 5;
+}
+
+#div4{
+	background-color: darkblue;
+}
+
+
+
+/*Flex wrap*/
+
+#container-flex-wrap{
+	height: 75vh;
+	width: 75vw;
+	background-color: lightcoral;
+	display: flex;
+	flex-direction: row;
+	/*flex-direction: row-reverse;*/
+	/*flex-direction: column;*/
+	/*flex-direction: column-reverse;*/
+	/*flex-wrap: wrap;*/
+	/*flex-wrap: nowrap;*/
+	flex-wrap: wrap-reverse;
+}
+
+#container-flex-wrap div{
+	height: 200px;
+	width: 200px;
+}
+
+#div1w{
+	background-color: bisque;
+}
+
+#div2w{
+	background-color: black;
+}
+
+#div3w{
+	background-color: burlywood;
+}
+
+#div4w{
+	background-color: darkblue;
+}
+
+#div5w{
+	background-color: aqua;
+}

@@ -1,0 +1,17 @@
+#lightbox{
+    height:0;
+    width:0;
+    position: fixed;
+    top:0;
+    left:0;
+    overflow:hidden;
+    transition: all 2s ease-in-out;
+}
+
+#lightbox:target{
+    height:25%;
+    width:25%;
+    background-color:green;
+    top:25%;
+    left:25%;
+}

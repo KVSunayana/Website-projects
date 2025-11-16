@@ -1,0 +1,12 @@
+.italino{
+	font-style: italic;
+}
+
+#coding{
+	font-family: monospace;
+}
+
+hr{
+	color: lightgray;
+	border: 1px solid lightgray;
+}

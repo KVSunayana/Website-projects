@@ -1,0 +1,117 @@
+body{
+	background-color: black;
+	margin: 0;
+	padding: 0;
+	color: white;
+}
+#cont{
+	background-image: url("https://t3.ftcdn.net/jpg/03/29/39/88/360_F_329398875_v9dO076b80cIczc89lx1WnyvAYWPNea9.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 500px;
+	width: 1365px;
+}
+#explore a, #favs a{
+	text-decoration: none;
+	color: #f9b899;
+}
+#explore, #favs{
+	height: 50px;
+	width: 120px;
+	background-color: #620909d4;
+	border: 3px solid #090401;
+	font-size: 15px;
+	text-align: center;
+	color: #f9b899;
+	font-weight: bold;
+	border-radius: 10px;
+}
+#explore{
+	margin-left: 40%;
+	margin-right: 3%;
+}
+#explore:hover{
+	color: gold;
+	background-color: black;
+	border: 3px solid palegoldenrod;
+}
+#favs:hover{
+	background-color: black;
+	color: gold;
+	border: 3px solid palegoldenrod;
+}
+#title{
+	font-size: 100px;
+	text-align: center;
+	color: firebrick;
+	text-shadow: 3px 3px 3px black;
+	padding-top: 110px;
+}
+#explorer{
+	margin-top: 100px;
+}
+h2{
+	font-size: 50px;
+	text-align: center;
+	color: #eebdbd;
+	text-shadow: 3px 3px 3px #770d08;
+	padding-top: 50px;
+}
+#my-search{
+	height: 35px;
+	width: 400px;
+	font-size: 18px;
+	border-radius: 10px;
+	background-color: beige;
+	text-align: center;
+	margin-left: 35%;
+	color: maroon;
+}
+/* header navbar */
+#nav {
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+}
+/* meal card */
+#card {
+    background-color: #592515;
+    padding: 10px;
+    color: #ffb70c;
+    box-shadow: rgba(255, 0, 0, 0.35) 0px 5px 15px;
+}
+
+#card img {
+    border-radius: 50%;
+}
+
+
+/* meal details container */
+#meal-details{
+    width: 100%;
+    padding: 20px;
+    border-radius: 20px;
+    background-color:#FF3044 ;
+}
+#meal-header{
+    width: 70%;
+    margin: auto;
+}
+#meal-thumbail img{
+    height: 250px;
+    width: 250px;
+    border-radius: 50%;
+}
+#details{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-style: italic;
+}
+#meal-instruction{
+    margin: auto;
+    text-align: center;
+}
+/* favourites offcanvas */
+#favourites-body{
+    background-color:#212529;
+}
