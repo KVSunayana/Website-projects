@@ -1,2 +1,2 @@
 # Website-projects
-All example websites
+All Coding Ninjas Project files
